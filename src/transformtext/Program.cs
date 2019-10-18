@@ -8,9 +8,9 @@ namespace transformtext {
         static void Main(string[] args) {
             Parser.Default.ParseArguments<Options>(args)
                 .WithParsed<Options>(o => {
+
                     ConsolePrint.Welcome(o.Quiet);
                 });
-
         }
     }
 }
