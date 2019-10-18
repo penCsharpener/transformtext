@@ -11,9 +11,6 @@ namespace transformtext.Args {
         [Option('q', "quiet", Default = false, Required = false, HelpText = "Turn off welcome screen and other decorative text.")]
         public bool Quiet { get; set; }
 
-        [Option('v', "verbose", Required = false, HelpText = "Set output to verbose messages.")]
-        public bool Verbose { get; set; }
-
         [Option('l', "loglevel", Default = 3, Required = false, HelpText = "planned: Set log level from 1) Trace 2) Debug 3) Info 4) Warning 5) Error")]
         public int LogLevel { get; set; }
 
