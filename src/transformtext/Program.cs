@@ -1,9 +1,16 @@
-﻿using System;
+﻿using CommandLine;
+using System;
+using transformtext.Args;
+using transformtext.Print;
 
 namespace transformtext {
-    class Program {
+    static class Program {
         static void Main(string[] args) {
-            Console.WriteLine("Hello World!");
+            Parser.Default.ParseArguments<Options>(args)
+                .WithParsed<Options>(o => {
+                    ConsolePrint.Welcome(o.Quiet);
+                });
+
         }
     }
 }
