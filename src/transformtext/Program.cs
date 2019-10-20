@@ -2,6 +2,7 @@
 using System;
 using transformtext.Args;
 using transformtext.Print;
+using transformtext.Transform;
 using transformtext.Utils;
 
 namespace transformtext {
@@ -11,7 +12,10 @@ namespace transformtext {
                 .WithParsed<Options>(async o => {
                     ConsolePrint.Welcome(o.Quiet);
                     await Setup.Structure(o);
+                    SourceFolder.GetFiles(o).TransForm();
+                    await foreach (var textFile in SourceFolder.GetFiles(o).TransForm()) {
 
+                    }
                 });
         }
     }
