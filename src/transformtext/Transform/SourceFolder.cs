@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using transformtext.Args;
+using TransformText.Args;
 
-namespace transformtext.Transform {
+namespace TransformText.Transform {
     public static class SourceFolder {
 
         public const string Path = "source";

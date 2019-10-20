@@ -5,7 +5,7 @@ using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace transformtext.Args {
+namespace TransformText.Args {
     public class Options {
 
         [Option('q', "quiet", Default = false, Required = false, HelpText = "Turn off welcome screen and other decorative text.")]

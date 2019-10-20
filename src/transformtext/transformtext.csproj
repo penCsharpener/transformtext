@@ -5,6 +5,8 @@
     <TargetFramework>netcoreapp3.0</TargetFramework>
     <Version>0.1.0</Version>
     <StartupObject>transformtext.Program</StartupObject>
+    <RootNamespace>TransformText</RootNamespace>
+    <AssemblyName>TransformText</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

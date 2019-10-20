@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using transformtext.Args;
+using TransformText.Args;
 
-namespace transformtext.Transform {
+namespace TransformText.Transform {
     public class TextFile : TextFileInfo {
         private readonly IEnumerable<string> lines;
 

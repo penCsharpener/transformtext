@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using transformtext.Args;
-using transformtext.Print;
+using TransformText.Args;
+using TransformText.Print;
 
-namespace transformtext.Utils {
+namespace TransformText.Utils {
     internal static class Setup {
         internal const string SourceFolder = "source";
         internal const string TargetFolder = "target";

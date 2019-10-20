@@ -5,10 +5,10 @@ using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using transformtext.Args;
-using transformtext.Transform;
+using TransformText.Args;
+using TransformText.Transform;
 
-namespace transformtext.Tests {
+namespace TransformText.Tests {
 
     class ExtensionTests {
 
@@ -21,7 +21,7 @@ namespace transformtext.Tests {
 
         [TestCase]
         public async Task GetFiles() {
-            await transformtext.Utils.Setup.Structure(o);
+            await TransformText.Utils.Setup.Structure(o);
             Console.WriteLine(string.Join(", ", SourceFolder.GetFiles(o).Select(x => x.fi.Name)));
             Assert.IsTrue(SourceFolder.GetFiles(o).Any());
         }

@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Text;
-using transformtext.Args;
+using TransformText.Args;
 
-namespace transformtext.Print {
+namespace TransformText.Print {
     internal static class ConsolePrint {
         internal static void Welcome(bool optionQuiet) {
             if (optionQuiet) return;

@@ -4,10 +4,10 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 using System.Threading.Tasks;
-using transformtext.Args;
+using TransformText.Args;
 
-namespace transformtext.Utils {
     internal class TransformOptions {
+namespace TransformText.Utils {
         public const string Filename = "options.json";
         public StartWith StartWith { get; set; } = new StartWith();
         public EndsWith EndsWith { get; set; } = new EndsWith();

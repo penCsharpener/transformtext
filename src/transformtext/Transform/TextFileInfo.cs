@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace transformtext.Transform {
+namespace TransformText.Transform {
     public class TextFileInfo {
         internal readonly FileInfo fi;
         public string FullPath => fi.FullName;

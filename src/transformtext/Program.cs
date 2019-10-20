@@ -1,11 +1,11 @@
 ﻿using CommandLine;
 using System;
-using transformtext.Args;
-using transformtext.Print;
-using transformtext.Transform;
-using transformtext.Utils;
+using TransformText.Args;
+using TransformText.Print;
+using TransformText.Transform;
+using TransformText.Utils;
 
-namespace transformtext {
+namespace TransformText {
     static class Program {
         static void Main(string[] args) {
             Parser.Default.ParseArguments<Options>(args)

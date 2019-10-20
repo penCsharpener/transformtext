@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Threading.Tasks;
-using transformtext.Args;
-using transformtext.Utils;
+using TransformText.Args;
+using TransformText.Utils;
 
-namespace transformtext.Transform {
+namespace TransformText.Transform {
     public static class TextFileExtensions {
         public static async IAsyncEnumerable<TextFile> TransForm(this IEnumerable<TextFileInfo> textFiles) {
             foreach (var file in textFiles) {
